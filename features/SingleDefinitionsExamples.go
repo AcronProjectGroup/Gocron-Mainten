@@ -6,7 +6,7 @@ type SingleDefinitionExamples struct {
 
 var OriginalSingleDefExamples = SingleDefinitionExamples{
 	MapSingleDefEx: map[string]string{
-		"for":`56.for
+		"for": `56.for
 =================
 example-1 
 ------------
@@ -39,7 +39,7 @@ Output:
 	Index: 5 Character: L
 	Index: 6 Character: E`,
 
-	"http servers":`403.Creating HTTP Servers
+		"http servers": `403.Creating HTTP Servers
 =================
 example-1 
 ------------
@@ -91,7 +91,7 @@ Output: go run .
 	in Web Browser, search localhost:5000/
 	Hello, World
 `,
-"simple server":`403.Creating HTTP Servers
+		"simple server": `403.Creating HTTP Servers
 =================
 example-1 
 ------------
@@ -143,7 +143,7 @@ Output: go run .
 	in Web Browser, search localhost:5000/
 	Hello, World
 `,
-"web application":`
+		"web application": `
 main.go:
 	package main
 	import (
@@ -163,7 +163,7 @@ Output: go run main.go
 	in Web Browser, search localhost:3000
 	Welcome to AcronProject Site
 `,
-"simple web application":`main.go:
+		"simple web application": `main.go:
 	package main
 	import (
 		"fmt"
@@ -183,7 +183,7 @@ Output: go run main.go
 	Welcome to AcronProject Site
 
 	`,
-"simple web app":`main.go:
+		"simple web app": `main.go:
 	package main
 	import (
 		"fmt"
@@ -202,66 +202,66 @@ Output: go run main.go
 	in Web Browser, search localhost:3000
 	Welcome to AcronProject Site
 		`,
-"bool":`Boolean
+		"bool": `Boolean
 var closed bool    // boolean variable 'closed' implicitly initialized with 'false'
 speeding := true   // boolean variable 'speeding' initialized with 'true'
 hasError := false  // boolean variable 'hasError' initialized with 'false' 
 `,
-"boolean":`Boolean
+		"boolean": `Boolean
 var closed bool    // boolean variable 'closed' implicitly initialized with 'false'
 speeding := true   // boolean variable 'speeding' initialized with 'true'
 hasError := false  // boolean variable 'hasError' initialized with 'false' 
 `,
-"booleans":`Boolean
+		"booleans": `Boolean
 var closed bool    // boolean variable 'closed' implicitly initialized with 'false'
 speeding := true   // boolean variable 'speeding' initialized with 'true'
 hasError := false  // boolean variable 'hasError' initialized with 'false' 
 `,
-"package comments":`kelvin.go
+		"package comments": `kelvin.go
 // Package kelvin provides tools to convert
 // temperatures to and from Kelvin.
 package kelvin
 `,
-"package comment":`kelvin.go
+		"package comment": `kelvin.go
 // Package kelvin provides tools to convert
 // temperatures to and from Kelvin.
 package kelvin`,
-"function comment":`example:
+		"function comment": `example:
 // CelsiusFreezingTemp returns an integer value equal to the temperature at which water freezes in degrees Celsius.
 func CelsiusFreezingTemp() int {
 	return 0
 }`,
-"function comments":`example:
+		"function comments": `example:
 // CelsiusFreezingTemp returns an integer value equal to the temperature at which water freezes in degrees Celsius.
 func CelsiusFreezingTemp() int {
 	return 0
 }`,
-"operator":`Operator 	Example
+		"operator": `Operator 	Example
 --------	-------------
 + 		4 + 6 == 10
 - 		15 - 10 == 5
 * 		2 * 3 == 6
 / 		13 / 3 == 4
 % 		13 % 3 == 1`,
-"operators":`Operator 	Example
+		"operators": `Operator 	Example
 --------	-------------
 + 		4 + 6 == 10
 - 		15 - 10 == 5
 * 		2 * 3 == 6
 / 		13 / 3 == 4
 % 		13 % 3 == 1`,
-"arithmetic operators":`Operator 	Example
+		"arithmetic operators": `Operator 	Example
 --------	-------------
 + 		4 + 6 == 10
 - 		15 - 10 == 5
 * 		2 * 3 == 6
 / 		13 / 3 == 4
 % 		13 % 3 == 1`,
-"converting between types":`var x int = 42 // x has type int
+		"converting between types": `var x int = 42 // x has type int
 f := float64(x) // f has type float64 (ie. 42.0)
 var y float64 = 11.9 // y has type float64
 i := int(y) // i has type int (ie. 11)`,
-"arithmetic operations on different types":`var x int = 42
+		"arithmetic operations on different types": `var x int = 42
 
 // this line produces an error
 value := float32(2.0) * x // invalid operation: mismatched types float32 and int
@@ -269,7 +269,7 @@ value := float32(2.0) * x // invalid operation: mismatched types float32 and int
 // you must convert int type to float32 before performing arithmetic operation
 value := float32(2.0) * float32(x)`,
 
-"arithmetic operations on different type":`var x int = 42
+		"arithmetic operations on different type": `var x int = 42
 
 // this line produces an error
 value := float32(2.0) * x // invalid operation: mismatched types float32 and int
@@ -277,12 +277,12 @@ value := float32(2.0) * x // invalid operation: mismatched types float32 and int
 // you must convert int type to float32 before performing arithmetic operation
 value := float32(2.0) * float32(x)`,
 
-	"godoc":`An Example Program With Godoc Comments
+		"godoc": `An Example Program With Godoc Comments
 The code below adheres to the Go way, in this case using single-line comments.
 ===================================
 
 `,
-	"string":`A string literal is defined between double quotes:
+		"string": `A string literal is defined between double quotes:
 
 	const name = "Jane"
 	
@@ -295,7 +295,7 @@ Strings can be concatenated via the + operator:
 ==================================================	
 `,
 
-"beego":`Quick Start
+		"beego": `Quick Start
 Create hello directory, cd hello directory
 	mkdir hello
 	cd hello
@@ -318,7 +318,7 @@ Build and run
 	./hello
 `,
 
-"beego1":`beego-2
+		"beego1": `beego-2
 this is first example, you can write => beggo or beego1 or beego2 and more for another examples:
 Quick Start
 
@@ -344,7 +344,7 @@ Build and run
 	./hello
 `,
 
-"beego framework":`Quick Start
+		"beego framework": `Quick Start
 Create hello directory, cd hello directory
 	mkdir hello
 	cd hello
@@ -367,7 +367,7 @@ Build and run
 	./hello
 `,
 
-"generics" :`main.go:
+		"generics": `main.go:
 package main
 
 import "fmt"
@@ -384,7 +384,7 @@ func main() {
 	fmt.Println(obj)
 }`,
 
-"generic" :`main.go:
+		"generic": `main.go:
 package main
 
 import "fmt"
@@ -401,7 +401,7 @@ func main() {
 	fmt.Println(obj)
 }`,
 
-"reflection":`example:
+		"reflection": `example:
 package main
 func printDetails(values ...interface{}) {
 	for _, elem := range values {
@@ -426,8 +426,7 @@ Output:
 Product: Name: Kayak, Category: Watersports, Price: 279
 Customer: Name: Alice, City: New York`,
 
-
-"reflection ":`example:
+		"reflection ": `example:
 package main
 func printDetails(values ...interface{}) {
 	for _, elem := range values {
@@ -452,8 +451,7 @@ Output:
 Product: Name: Kayak, Category: Watersports, Price: 279
 Customer: Name: Alice, City: New York`,
 
-
-"reflection 1":`example:
+		"reflection 1": `example:
 package main
 func printDetails(values ...interface{}) {
 	for _, elem := range values {
@@ -478,8 +476,7 @@ Output:
 Product: Name: Kayak, Category: Watersports, Price: 279
 Customer: Name: Alice, City: New York`,
 
-
-"reflection1":`example:
+		"reflection1": `example:
 package main
 func printDetails(values ...interface{}) {
 	for _, elem := range values {
@@ -504,7 +501,7 @@ Output:
 Product: Name: Kayak, Category: Watersports, Price: 279
 Customer: Name: Alice, City: New York`,
 
-"server":`server1 = you can use server2 example, server3 or more 
+		"server": `server1 = you can use server2 example, server3 or more 
 main.go:
 	package main
 	import (
@@ -517,7 +514,7 @@ main.go:
 	}
 `,
 
-"server1":`server1 = you can use server2 example, server3 or more
+		"server1": `server1 = you can use server2 example, server3 or more
 main.go:
 	package main
 	import (
@@ -530,7 +527,7 @@ main.go:
 	}
 `,
 
-"beego2":`beego-2
+		"beego2": `beego-2
 this is first example, you can write => beggo or beego1 or beego2 and more for another examples:
 =========================================================================
 main.go:
@@ -690,7 +687,7 @@ Output:
 	NOT Found blue text with another information.
 */
 `,
-"goal or none sense game":`game-1 Goal Or None Sense Game
+		"goal or none sense game": `game-1 Goal Or None Sense Game
 
 main.go:
 	package main
@@ -735,7 +732,7 @@ main.go:
 		}
 	}
 `,
-"game":`game-1 Goal Or None Sense Game
+		"game": `game-1 Goal Or None Sense Game
 main.go:
 package main
 import (
@@ -776,10 +773,10 @@ func main() {
 	}
 }
 `,
-// =======================================================================================
-// =======================================================================================
-// =======================================================================================
-"game1":`game-1 Goal Or None Sense Game
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"game1": `game-1 Goal Or None Sense Game
 main.go:
 package main
 import (
@@ -820,10 +817,10 @@ func main() {
 	}
 }
 `,
-// =======================================================================================
-// =======================================================================================
-// =======================================================================================
-"game goal or none sense":`game-1 Goal Or None Sense Game
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"game goal or none sense": `game-1 Goal Or None Sense Game
 main.go:
 package main
 import (
@@ -864,10 +861,10 @@ func main() {
 	}
 }
 `,
-// =======================================================================================
-// =======================================================================================
-// =======================================================================================
-"goal or none sense":`game-1 Goal Or None Sense Game
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"goal or none sense": `game-1 Goal Or None Sense Game
 main.go:
 package main
 import (
@@ -908,8 +905,8 @@ func main() {
 	}
 }
 `,
-// ******************************************************************************************************
-"encryption":`encryption1 simple encryption
+		// ******************************************************************************************************
+		"encryption": `encryption1 simple encryption
 main.go:
 	package main
 
@@ -927,8 +924,8 @@ main.go:
 		fmt.Println(Encryption)
 	}
 `,
-// *********************************//////////////////////////////**********************************
-"encryption1":`encryption1 simple encryption
+		// *********************************//////////////////////////////**********************************
+		"encryption1": `encryption1 simple encryption
 main.go:
 	package main
 
@@ -946,9 +943,9 @@ main.go:
 		fmt.Println(Encryption)
 	}
 `,
-// ************************************************************************************************
-// =================================================================================================
-"simple encryption":`encryption1 simple encryption
+		// ************************************************************************************************
+		// =================================================================================================
+		"simple encryption": `encryption1 simple encryption
 main.go:
 	package main
 
@@ -966,9 +963,9 @@ main.go:
 		fmt.Println(Encryption)
 	}
 `,
-// ////////////////////////////////////////////////////////////////////////////////////////////////
-// ================================================================================================
-"first encryption":`encryption1 simple encryption
+		// ////////////////////////////////////////////////////////////////////////////////////////////////
+		// ================================================================================================
+		"first encryption": `encryption1 simple encryption
 main.go:
 	package main
 
@@ -986,9 +983,9 @@ main.go:
 		fmt.Println(Encryption)
 	}
 `,
-// ////////////////////////////////////////////////////////////////////////////////////////////////
-// ================================================================================================
-"go tool dist list": `
+		// ////////////////////////////////////////////////////////////////////////////////////////////////
+		// ================================================================================================
+		"go tool dist list": `
 488🚀 This will provide you a list of operating systems and architectures separated by / characters:
 Output:
 	aix/ppc64
@@ -1038,9 +1035,9 @@ Output:
 	windows/amd64
 	windows/arm
 	windows/arm64`,
-// ////////////////////////////////////////////////////////////////////////////////////////////////
-// ===============================================================================================
-	"tool dist list": `
+		// ////////////////////////////////////////////////////////////////////////////////////////////////
+		// ===============================================================================================
+		"tool dist list": `
 488🚀 This will provide you a list of operating systems and architectures separated by / characters:
 Output:
 	aix/ppc64
@@ -1090,9 +1087,9 @@ Output:
 	windows/amd64
 	windows/arm
 	windows/arm64`,
-// ///////////////////////////////////////////////////////////////////////////////////
-// ==================================================================================
-	"dist list": `
+		// ///////////////////////////////////////////////////////////////////////////////////
+		// ==================================================================================
+		"dist list": `
 488🚀 This will provide you a list of operating systems and architectures separated by / characters:
 Output:
 	aix/ppc64
@@ -1142,8 +1139,8 @@ Output:
 	windows/amd64
 	windows/arm
 	windows/arm64`,
-// =====================================================================================
-	"random generator":`
+		// =====================================================================================
+		"random generator": `
 	// random generator1
 	// go get github.com/Knetic/govaluate
 
@@ -1212,8 +1209,8 @@ Output:
 	
 	}
 	`,
-// ==================================================================
-	"random generator1":`
+		// ==================================================================
+		"random generator1": `
 	// random generator1
 	// go get github.com/Knetic/govaluate
 
@@ -1283,7 +1280,7 @@ Output:
 	}
 	`,
 
-	"random generator numbers":`
+		"random generator numbers": `
 	// random generator1
 	// go get github.com/Knetic/govaluate
 
@@ -1352,10 +1349,10 @@ Output:
 	
 	}
 	`,
-// =======================================================================================
-// =======================================================================================
-// =======================================================================================
-	"crawler":`crawler1
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"crawler": `crawler1
 	In Terminal in current directory write:
 		go get golang.org/x/net/html
 
@@ -1464,10 +1461,10 @@ Output:
 			Crawl(url, depth, searchDir)
 		}
 `,
-// =======================================================================================
-// =======================================================================================
-// =======================================================================================
-"crawler2":`crawler2
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"crawler2": `crawler2
 in Terminal in current directory
 	go get golang.org/x/net/html
 
@@ -1576,10 +1573,10 @@ main.go:
 	}
 
 `,
-// =======================================================================================
-// =======================================================================================
-// =======================================================================================
-"simple crawler":`crawler2
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"simple crawler": `crawler2
 in Terminal in current directory
 	go get golang.org/x/net/html
 
@@ -1688,10 +1685,10 @@ main.go:
 	}
 
 `,
-// =======================================================================================
-// =======================================================================================
-// =======================================================================================
-"simple crawl":`crawler2
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"simple crawl": `crawler2
 in Terminal in current directory
 	go get golang.org/x/net/html
 
@@ -1800,123 +1797,10 @@ main.go:
 	}
 
 `,
-// =======================================================================================
-// =======================================================================================
-// =======================================================================================
-"simple crawlling":`crawler2
-in Terminal in current directory
-	go get golang.org/x/net/html
-
-main.go:
-	package main
-
-	import (
-		"fmt"
-		"net/http"
-		"os"
-		"strconv"
-
-		"golang.org/x/net/html"
-	)
-
-	// Crawl function takes a URL and recursively crawls the pages
-	func Crawl(url string, depth int) {
-		if depth <= 0 {
-			return
-		}
-
-		// Make an HTTP request
-		resp, err := http.Get(url)
-		if err != nil {
-			fmt.Println("Error making request:", err)
-			return
-		}
-		defer resp.Body.Close()
-
-		// Parse the HTML content
-		doc, err := html.Parse(resp.Body)
-		if err != nil {
-			fmt.Println("Error parsing HTML:", err)
-			return
-		}
-
-		// Process the links on the current page
-		processLinks(doc)
-
-		// Recursively crawl the linked pages
-		links := extractLinks(doc)
-		for _, link := range links {
-			Crawl(link, depth-1)
-		}
-	}
-
-	// processLinks extracts and prints the links on the current page
-	func processLinks(n *html.Node) {
-		if n.Type == html.ElementNode && n.Data == "a" {
-			for _, a := range n.Attr {
-				if a.Key == "href" {
-					fmt.Println("Link:", a.Val)
-				}
-			}
-		}
-
-		for c := n.FirstChild; c != nil; c = c.NextSibling {
-			processLinks(c)
-		}
-	}
-
-	// extractLinks returns a slice of unique links from the HTML document
-	func extractLinks(n *html.Node) []string {
-		var links []string
-		visited := make(map[string]bool)
-
-		var visitNode func(*html.Node)
-		visitNode = func(n *html.Node) {
-			if n.Type == html.ElementNode && n.Data == "a" {
-				for _, a := range n.Attr {
-					if a.Key == "href" {
-						link := a.Val
-						if !visited[link] {
-							links = append(links, link)
-							visited[link] = true
-						}
-					}
-				}
-			}
-
-			for c := n.FirstChild; c != nil; c = c.NextSibling {
-				visitNode(c)
-			}
-		}
-
-		visitNode(n)
-		return links
-	}
-
-	func main() {
-		if len(os.Args) != 3 {
-			fmt.Println("Usage: go run crawler.go <url> <depth>")
-			return
-		}
-
-		url := os.Args[1]
-		depthstr := os.Args[2]
-
-		depth, err := strconv.Atoi(depthstr)
-		if err != nil {
-			fmt.Println("Error converting depth to integer:", err)
-			return
-		}
-
-		Crawl(url, depth)
-	}
-
-`,
-
-// =======================================================================================
-// =======================================================================================
-// =======================================================================================
-"crawlling":`crawler2
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"simple crawlling": `crawler2
 in Terminal in current directory
 	go get golang.org/x/net/html
 
@@ -2026,8 +1910,1764 @@ main.go:
 
 `,
 
-},
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"crawlling": `crawler2
+in Terminal in current directory
+	go get golang.org/x/net/html
 
+main.go:
+	package main
+
+	import (
+		"fmt"
+		"net/http"
+		"os"
+		"strconv"
+
+		"golang.org/x/net/html"
+	)
+
+	// Crawl function takes a URL and recursively crawls the pages
+	func Crawl(url string, depth int) {
+		if depth <= 0 {
+			return
+		}
+
+		// Make an HTTP request
+		resp, err := http.Get(url)
+		if err != nil {
+			fmt.Println("Error making request:", err)
+			return
+		}
+		defer resp.Body.Close()
+
+		// Parse the HTML content
+		doc, err := html.Parse(resp.Body)
+		if err != nil {
+			fmt.Println("Error parsing HTML:", err)
+			return
+		}
+
+		// Process the links on the current page
+		processLinks(doc)
+
+		// Recursively crawl the linked pages
+		links := extractLinks(doc)
+		for _, link := range links {
+			Crawl(link, depth-1)
+		}
+	}
+
+	// processLinks extracts and prints the links on the current page
+	func processLinks(n *html.Node) {
+		if n.Type == html.ElementNode && n.Data == "a" {
+			for _, a := range n.Attr {
+				if a.Key == "href" {
+					fmt.Println("Link:", a.Val)
+				}
+			}
+		}
+
+		for c := n.FirstChild; c != nil; c = c.NextSibling {
+			processLinks(c)
+		}
+	}
+
+	// extractLinks returns a slice of unique links from the HTML document
+	func extractLinks(n *html.Node) []string {
+		var links []string
+		visited := make(map[string]bool)
+
+		var visitNode func(*html.Node)
+		visitNode = func(n *html.Node) {
+			if n.Type == html.ElementNode && n.Data == "a" {
+				for _, a := range n.Attr {
+					if a.Key == "href" {
+						link := a.Val
+						if !visited[link] {
+							links = append(links, link)
+							visited[link] = true
+						}
+					}
+				}
+			}
+
+			for c := n.FirstChild; c != nil; c = c.NextSibling {
+				visitNode(c)
+			}
+		}
+
+		visitNode(n)
+		return links
+	}
+
+	func main() {
+		if len(os.Args) != 3 {
+			fmt.Println("Usage: go run crawler.go <url> <depth>")
+			return
+		}
+
+		url := os.Args[1]
+		depthstr := os.Args[2]
+
+		depth, err := strconv.Atoi(depthstr)
+		if err != nil {
+			fmt.Println("Error converting depth to integer:", err)
+			return
+		}
+
+		Crawl(url, depth)
+	}
+
+`,
+
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+
+		"cms": `Content Management System with GO language
+========================================================
+Directory architecture:
+└─templates/
+|   └─index.gohtml
+└─cmd/
+|   └─main.go
+└─go.mod
+└─template.go
+========================================================
+go.mod:
+	module cmsOne
+	go 1.21.3
+========================================================
+cmd/main.go:
+	package main
+	import (
+		cms "cmsOne"
+		"os"
+	)
+	func main()  {
+		p := cms.Page{	
+			Title: "Hello, world!",
+			Content: "This is body of our website",	
+		} 
+		cms.Templ.ExecuteTemplate(os.Stdout, "index", p)
+	}
+========================================================
+template.go:
+	package cms
+	import (
+		"html/template"
+	)
+	// Templ is an exported variable. 
+	// Templ is stand for Templates
+	var Templ = template.Must(template.ParseGlob("../templates/*"))
+	type Page struct {
+		Title string
+		Content string
+	}
+========================================================
+templates/index.gohtml:
+	{{ define "index" }}
+	<!DOCTYPE html>
+	asdasd
+	<html>
+		<head>
+			<title>
+				{{.Title}}
+			</title>
+		</head>
+		<body>
+			{{ .Content }}
+		</body>
+	</html>
+	{{ end }}
+========================================================
+	`,
+
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+
+		"cms-go": `Content Management System with GO language
+	Content Management System with GO language
+========================================================
+Directory architecture:
+└─templates/
+|   └─index.gohtml
+└─cmd/
+|   └─main.go
+└─go.mod
+└─template.go
+========================================================
+go.mod:
+	module cmsOne
+	go 1.21.3
+========================================================
+cmd/main.go:
+	package main
+	import (
+		cms "cmsOne"
+		"os"
+	)
+	func main()  {
+		p := cms.Page{	
+			Title: "Hello, world!",
+			Content: "This is body of our website",	
+		} 
+		cms.Templ.ExecuteTemplate(os.Stdout, "index", p)
+	}
+========================================================
+template.go:
+	package cms
+	import (
+		"html/template"
+	)
+	// Templ is an exported variable. 
+	// Templ is stand for Templates
+	var Templ = template.Must(template.ParseGlob("../templates/*"))
+	type Page struct {
+		Title string
+		Content string
+	}
+========================================================
+templates/index.gohtml:
+	{{ define "index" }}
+	<!DOCTYPE html>
+	asdasd
+	<html>
+		<head>
+			<title>
+				{{.Title}}
+			</title>
+		</head>
+		<body>
+			{{ .Content }}
+		</body>
+	</html>
+	{{ end }}
+========================================================`,
+
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+
+		"cms with go": `Content Management System with GO language
+	Content Management System with GO language
+========================================================
+Directory architecture:
+└─templates/
+|   └─index.gohtml
+└─cmd/
+|   └─main.go
+└─go.mod
+└─template.go
+========================================================
+go.mod:
+	module cmsOne
+	go 1.21.3
+========================================================
+cmd/main.go:
+	package main
+	import (
+		cms "cmsOne"
+		"os"
+	)
+	func main()  {
+		p := cms.Page{	
+			Title: "Hello, world!",
+			Content: "This is body of our website",	
+		} 
+		cms.Templ.ExecuteTemplate(os.Stdout, "index", p)
+	}
+========================================================
+template.go:
+	package cms
+	import (
+		"html/template"
+	)
+	// Templ is an exported variable. 
+	// Templ is stand for Templates
+	var Templ = template.Must(template.ParseGlob("../templates/*"))
+	type Page struct {
+		Title string
+		Content string
+	}
+========================================================
+templates/index.gohtml:
+	{{ define "index" }}
+	<!DOCTYPE html>
+	asdasd
+	<html>
+		<head>
+			<title>
+				{{.Title}}
+			</title>
+		</head>
+		<body>
+			{{ .Content }}
+		</body>
+	</html>
+	{{ end }}
+========================================================`,
+
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+
+		"content management system": `Content Management System with GO language
+	Content Management System with GO language
+========================================================
+Directory architecture:
+└─templates/
+|   └─index.gohtml
+└─cmd/
+|   └─main.go
+└─go.mod
+└─template.go
+========================================================
+go.mod:
+	module cmsOne
+	go 1.21.3
+========================================================
+cmd/main.go:
+	package main
+	import (
+		cms "cmsOne"
+		"os"
+	)
+	func main()  {
+		p := cms.Page{	
+			Title: "Hello, world!",
+			Content: "This is body of our website",	
+		} 
+		cms.Templ.ExecuteTemplate(os.Stdout, "index", p)
+	}
+========================================================
+template.go:
+	package cms
+	import (
+		"html/template"
+	)
+	// Templ is an exported variable. 
+	// Templ is stand for Templates
+	var Templ = template.Must(template.ParseGlob("../templates/*"))
+	type Page struct {
+		Title string
+		Content string
+	}
+========================================================
+templates/index.gohtml:
+	{{ define "index" }}
+	<!DOCTYPE html>
+	asdasd
+	<html>
+		<head>
+			<title>
+				{{.Title}}
+			</title>
+		</head>
+		<body>
+			{{ .Content }}
+		</body>
+	</html>
+	{{ end }}
+========================================================`,
+
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"illustrates this process is IP": `illustrate-1
+package main
+
+import (
+	"fmt"
+	"net"
+	"os"
+)
+
+func main() {
+	if len(os.Args) != 2 {
+		fmt.Fprintf(os.Stderr, "Usage: %s ip-addr\n", os.Args[0])
+		os.Exit(1)
+	}
+	name := os.Args[1]
+	addr := net.ParseIP(name)
+	if addr == nil {
+		fmt.Println("Invalid address")
+	} else {
+		fmt.Println("The address is ", addr.String())
+	}
+	os.Exit(0)
+}
+`,
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"illustrate process is IP": `illustrate-1
+package main
+
+import (
+	"fmt"
+	"net"
+	"os"
+)
+
+func main() {
+	if len(os.Args) != 2 {
+		fmt.Fprintf(os.Stderr, "Usage: %s ip-addr\n", os.Args[0])
+		os.Exit(1)
+	}
+	name := os.Args[1]
+	addr := net.ParseIP(name)
+	if addr == nil {
+		fmt.Println("Invalid address")
+	} else {
+		fmt.Println("The address is ", addr.String())
+	}
+	os.Exit(0)
+}
+`,
+
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"illustrate process IP": `illustrate-1
+package main
+
+import (
+	"fmt"
+	"net"
+	"os"
+)
+
+func main() {
+	if len(os.Args) != 2 {
+		fmt.Fprintf(os.Stderr, "Usage: %s ip-addr\n", os.Args[0])
+		os.Exit(1)
+	}
+	name := os.Args[1]
+	addr := net.ParseIP(name)
+	if addr == nil {
+		fmt.Println("Invalid address")
+	} else {
+		fmt.Println("The address is ", addr.String())
+	}
+	os.Exit(0)
+}
+`,
+
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+
+		"illustrate IP": `illustrate-1
+package main
+
+import (
+	"fmt"
+	"net"
+	"os"
+)
+
+func main() {
+	if len(os.Args) != 2 {
+		fmt.Fprintf(os.Stderr, "Usage: %s ip-addr\n", os.Args[0])
+		os.Exit(1)
+	}
+	name := os.Args[1]
+	addr := net.ParseIP(name)
+	if addr == nil {
+		fmt.Println("Invalid address")
+	} else {
+		fmt.Println("The address is ", addr.String())
+	}
+	os.Exit(0)
+}
+`,
+
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+
+		"illustrator IP": `illustrate-1
+package main
+
+import (
+	"fmt"
+	"net"
+	"os"
+)
+
+func main() {
+	if len(os.Args) != 2 {
+		fmt.Fprintf(os.Stderr, "Usage: %s ip-addr\n", os.Args[0])
+		os.Exit(1)
+	}
+	name := os.Args[1]
+	addr := net.ParseIP(name)
+	if addr == nil {
+		fmt.Println("Invalid address")
+	} else {
+		fmt.Println("The address is ", addr.String())
+	}
+	os.Exit(0)
+}
+`,
+
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+
+		"resolveip.go": `ResolveIP.go-1
+main.go:
+	/* ResolveIP
+	*/
+	package main
+
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s hostname\n", os.Args[0])
+			fmt.Println("Usage: ", os.Args[0], "hostname")
+			os.Exit(1)
+		}
+		name := os.Args[1]
+		addr, err := net.ResolveIPAddr("ip", name)
+		if err != nil {
+			fmt.Println("Resolution error", err.Error())
+			os.Exit(1)
+		}
+		fmt.Println("Resolved address is ", addr.String())
+		os.Exit(0)
+	}
+
+`,
+
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+
+		"resolveip go": `ResolveIP.go-1
+main.go:
+	/* ResolveIP
+	*/
+	package main
+
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s hostname\n", os.Args[0])
+			fmt.Println("Usage: ", os.Args[0], "hostname")
+			os.Exit(1)
+		}
+		name := os.Args[1]
+		addr, err := net.ResolveIPAddr("ip", name)
+		if err != nil {
+			fmt.Println("Resolution error", err.Error())
+			os.Exit(1)
+		}
+		fmt.Println("Resolved address is ", addr.String())
+		os.Exit(0)
+	}
+
+`,
+
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"resolveip": `ResolveIP.go-1
+main.go:
+	/* ResolveIP
+	*/
+	package main
+
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s hostname\n", os.Args[0])
+			fmt.Println("Usage: ", os.Args[0], "hostname")
+			os.Exit(1)
+		}
+		name := os.Args[1]
+		addr, err := net.ResolveIPAddr("ip", name)
+		if err != nil {
+			fmt.Println("Resolution error", err.Error())
+			os.Exit(1)
+		}
+		fmt.Println("Resolved address is ", addr.String())
+		os.Exit(0)
+	}
+
+`,
+
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"resolver ip": `ResolveIP.go-1
+main.go:
+	/* ResolveIP
+	*/
+	package main
+
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s hostname\n", os.Args[0])
+			fmt.Println("Usage: ", os.Args[0], "hostname")
+			os.Exit(1)
+		}
+		name := os.Args[1]
+		addr, err := net.ResolveIPAddr("ip", name)
+		if err != nil {
+			fmt.Println("Resolution error", err.Error())
+			os.Exit(1)
+		}
+		fmt.Println("Resolved address is ", addr.String())
+		os.Exit(0)
+	}
+
+`,
+
+		// =======================================================================================
+		// =======================================================================================
+		// =======================================================================================
+		"resolverip": `ResolveIP.go-1
+main.go:
+	/* ResolveIP
+	*/
+	package main
+
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s hostname\n", os.Args[0])
+			fmt.Println("Usage: ", os.Args[0], "hostname")
+			os.Exit(1)
+		}
+		name := os.Args[1]
+		addr, err := net.ResolveIPAddr("ip", name)
+		if err != nil {
+			fmt.Println("Resolution error", err.Error())
+			os.Exit(1)
+		}
+		fmt.Println("Resolved address is ", addr.String())
+		os.Exit(0)
+	}
+
+`,
+
+		// =======================================================================================
+		"lookuphost": `LookupHost-1
+main.go:
+	/* LookupHost
+	*/
+	package main
+
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s hostname\n", os.Args[0])
+			os.Exit(1)
+		}
+		name := os.Args[1]
+		addrs, err := net.LookupHost(name)
+		if err != nil {
+			fmt.Println("Error: ", err.Error())
+			os.Exit(2)
+		}
+		for _, s := range addrs {
+			fmt.Println(s)
+		}
+		os.Exit(0)
+	}
+
+`,
+		// =======================================================================================
+		"find lookuphost": `LookupHost-1
+main.go:
+	/* LookupHost
+	*/
+	package main
+
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s hostname\n", os.Args[0])
+			os.Exit(1)
+		}
+		name := os.Args[1]
+		addrs, err := net.LookupHost(name)
+		if err != nil {
+			fmt.Println("Error: ", err.Error())
+			os.Exit(2)
+		}
+		for _, s := range addrs {
+			fmt.Println(s)
+		}
+		os.Exit(0)
+	}
+
+`,
+		// =======================================================================================
+		"lookuphost code": `LookupHost-1
+main.go:
+	/* LookupHost
+	*/
+	package main
+
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s hostname\n", os.Args[0])
+			os.Exit(1)
+		}
+		name := os.Args[1]
+		addrs, err := net.LookupHost(name)
+		if err != nil {
+			fmt.Println("Error: ", err.Error())
+			os.Exit(2)
+		}
+		for _, s := range addrs {
+			fmt.Println(s)
+		}
+		os.Exit(0)
+	}
+
+`,
+		// =======================================================================================
+		"lookuphost program": `LookupHost-1
+main.go:
+	/* LookupHost
+	*/
+	package main
+
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s hostname\n", os.Args[0])
+			os.Exit(1)
+		}
+		name := os.Args[1]
+		addrs, err := net.LookupHost(name)
+		if err != nil {
+			fmt.Println("Error: ", err.Error())
+			os.Exit(2)
+		}
+		for _, s := range addrs {
+			fmt.Println(s)
+		}
+		os.Exit(0)
+	}
+
+`,
+		// =======================================================================================
+		"lookupport": `LookupPort-1
+main.go:
+	// go run main.go tcp telnet
+	/* LookupPort
+	*/
+	package main
+
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 3 {
+			fmt.Fprintf(os.Stderr,
+				"Usage: %s network-type service\n",
+				os.Args[0])
+			os.Exit(1)
+		}
+		networkType := os.Args[1]
+		service := os.Args[2]
+		port, err := net.LookupPort(networkType, service)
+		if err != nil {
+			fmt.Println("Error: ", err.Error())
+			os.Exit(2)
+		}
+		fmt.Println("Service port ", port)
+		os.Exit(0)
+	}
+
+`,
+		// =======================================================================================
+		"lookupport program": `LookupPort-1
+main.go:
+	// go run main.go tcp telnet
+	/* LookupPort
+	*/
+	package main
+
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 3 {
+			fmt.Fprintf(os.Stderr,
+				"Usage: %s network-type service\n",
+				os.Args[0])
+			os.Exit(1)
+		}
+		networkType := os.Args[1]
+		service := os.Args[2]
+		port, err := net.LookupPort(networkType, service)
+		if err != nil {
+			fmt.Println("Error: ", err.Error())
+			os.Exit(2)
+		}
+		fmt.Println("Service port ", port)
+		os.Exit(0)
+	}
+
+`,
+		// =======================================================================================
+		"find lookupport": `LookupPort-1
+main.go:
+	// go run main.go tcp telnet
+	/* LookupPort
+	*/
+	package main
+
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 3 {
+			fmt.Fprintf(os.Stderr,
+				"Usage: %s network-type service\n",
+				os.Args[0])
+			os.Exit(1)
+		}
+		networkType := os.Args[1]
+		service := os.Args[2]
+		port, err := net.LookupPort(networkType, service)
+		if err != nil {
+			fmt.Println("Error: ", err.Error())
+			os.Exit(2)
+		}
+		fmt.Println("Service port ", port)
+		os.Exit(0)
+	}
+
+`,
+		// =======================================================================================
+		"lookup port": `LookupPort-1
+main.go:
+	// go run main.go tcp telnet
+	/* LookupPort
+	*/
+	package main
+
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 3 {
+			fmt.Fprintf(os.Stderr,
+				"Usage: %s network-type service\n",
+				os.Args[0])
+			os.Exit(1)
+		}
+		networkType := os.Args[1]
+		service := os.Args[2]
+		port, err := net.LookupPort(networkType, service)
+		if err != nil {
+			fmt.Println("Error: ", err.Error())
+			os.Exit(2)
+		}
+		fmt.Println("Service port ", port)
+		os.Exit(0)
+	}
+
+`,
+		// =======================================================================================
+		"getheadinfo": `GetHeadInfo-1
+main.go:
+	// go run main.go www.google.com:80
+
+	/* GetHeadInfo
+	*/
+	package main
+
+	import (
+		"fmt"
+		"io"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s host:port ", os.Args[0])
+			os.Exit(1)
+		}
+		service := os.Args[1]
+		tcpAddr, err := net.ResolveTCPAddr("tcp4", service)
+		checkError(err)
+		conn, err := net.DialTCP("tcp", nil, tcpAddr)
+		checkError(err)
+		_, err = conn.Write([]byte("HEAD / HTTP/1.0\r\n\r\n"))
+		checkError(err)
+		result, err := io.ReadAll(conn)
+		checkError(err)
+		fmt.Println(string(result))
+		os.Exit(0)
+	}
+
+	func checkError(err error) {
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+			os.Exit(1)
+		}
+	}
+
+`,
+		// =======================================================================================
+		"get head info": `GetHeadInfo-1
+main.go:
+	// go run main.go www.google.com:80
+
+	/* GetHeadInfo
+	*/
+	package main
+
+	import (
+		"fmt"
+		"io"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s host:port ", os.Args[0])
+			os.Exit(1)
+		}
+		service := os.Args[1]
+		tcpAddr, err := net.ResolveTCPAddr("tcp4", service)
+		checkError(err)
+		conn, err := net.DialTCP("tcp", nil, tcpAddr)
+		checkError(err)
+		_, err = conn.Write([]byte("HEAD / HTTP/1.0\r\n\r\n"))
+		checkError(err)
+		result, err := io.ReadAll(conn)
+		checkError(err)
+		fmt.Println(string(result))
+		os.Exit(0)
+	}
+
+	func checkError(err error) {
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+			os.Exit(1)
+		}
+	}
+
+`,
+		// =======================================================================================
+		"get headinfo": `GetHeadInfo-1
+main.go:
+	// go run main.go www.google.com:80
+
+	/* GetHeadInfo
+	*/
+	package main
+
+	import (
+		"fmt"
+		"io"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s host:port ", os.Args[0])
+			os.Exit(1)
+		}
+		service := os.Args[1]
+		tcpAddr, err := net.ResolveTCPAddr("tcp4", service)
+		checkError(err)
+		conn, err := net.DialTCP("tcp", nil, tcpAddr)
+		checkError(err)
+		_, err = conn.Write([]byte("HEAD / HTTP/1.0\r\n\r\n"))
+		checkError(err)
+		result, err := io.ReadAll(conn)
+		checkError(err)
+		fmt.Println(string(result))
+		os.Exit(0)
+	}
+
+	func checkError(err error) {
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+			os.Exit(1)
+		}
+	}
+
+`,
+		// =======================================================================================
+		"gethead info": `GetHeadInfo-1
+main.go:
+	// go run main.go www.google.com:80
+
+	/* GetHeadInfo
+	*/
+	package main
+
+	import (
+		"fmt"
+		"io"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s host:port ", os.Args[0])
+			os.Exit(1)
+		}
+		service := os.Args[1]
+		tcpAddr, err := net.ResolveTCPAddr("tcp4", service)
+		checkError(err)
+		conn, err := net.DialTCP("tcp", nil, tcpAddr)
+		checkError(err)
+		_, err = conn.Write([]byte("HEAD / HTTP/1.0\r\n\r\n"))
+		checkError(err)
+		result, err := io.ReadAll(conn)
+		checkError(err)
+		fmt.Println(string(result))
+		os.Exit(0)
+	}
+
+	func checkError(err error) {
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+			os.Exit(1)
+		}
+	}
+
+`,
+		// =======================================================================================
+		"gethead info http": `GetHeadInfo-1
+main.go:
+	// go run main.go www.google.com:80
+
+	/* GetHeadInfo
+	*/
+	package main
+
+	import (
+		"fmt"
+		"io"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s host:port ", os.Args[0])
+			os.Exit(1)
+		}
+		service := os.Args[1]
+		tcpAddr, err := net.ResolveTCPAddr("tcp4", service)
+		checkError(err)
+		conn, err := net.DialTCP("tcp", nil, tcpAddr)
+		checkError(err)
+		_, err = conn.Write([]byte("HEAD / HTTP/1.0\r\n\r\n"))
+		checkError(err)
+		result, err := io.ReadAll(conn)
+		checkError(err)
+		fmt.Println(string(result))
+		os.Exit(0)
+	}
+
+	func checkError(err error) {
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+			os.Exit(1)
+		}
+	}
+
+`,
+		// =======================================================================================
+		"get head info http": `GetHeadInfo-1
+main.go:
+	// go run main.go www.google.com:80
+
+	/* GetHeadInfo
+	*/
+	package main
+
+	import (
+		"fmt"
+		"io"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s host:port ", os.Args[0])
+			os.Exit(1)
+		}
+		service := os.Args[1]
+		tcpAddr, err := net.ResolveTCPAddr("tcp4", service)
+		checkError(err)
+		conn, err := net.DialTCP("tcp", nil, tcpAddr)
+		checkError(err)
+		_, err = conn.Write([]byte("HEAD / HTTP/1.0\r\n\r\n"))
+		checkError(err)
+		result, err := io.ReadAll(conn)
+		checkError(err)
+		fmt.Println(string(result))
+		os.Exit(0)
+	}
+
+	func checkError(err error) {
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+			os.Exit(1)
+		}
+	}
+
+`,
+		// =======================================================================================
+		"get headinfo http": `GetHeadInfo-1
+main.go:
+	// go run main.go www.google.com:80
+
+	/* GetHeadInfo
+	*/
+	package main
+
+	import (
+		"fmt"
+		"io"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s host:port ", os.Args[0])
+			os.Exit(1)
+		}
+		service := os.Args[1]
+		tcpAddr, err := net.ResolveTCPAddr("tcp4", service)
+		checkError(err)
+		conn, err := net.DialTCP("tcp", nil, tcpAddr)
+		checkError(err)
+		_, err = conn.Write([]byte("HEAD / HTTP/1.0\r\n\r\n"))
+		checkError(err)
+		result, err := io.ReadAll(conn)
+		checkError(err)
+		fmt.Println(string(result))
+		os.Exit(0)
+	}
+
+	func checkError(err error) {
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+			os.Exit(1)
+		}
+	}
+
+`,
+		// =======================================================================================
+		"get head infohttp": `GetHeadInfo-1
+main.go:
+	// go run main.go www.google.com:80
+
+	/* GetHeadInfo
+	*/
+	package main
+
+	import (
+		"fmt"
+		"io"
+		"net"
+		"os"
+	)
+
+	func main() {
+		if len(os.Args) != 2 {
+			fmt.Fprintf(os.Stderr, "Usage: %s host:port ", os.Args[0])
+			os.Exit(1)
+		}
+		service := os.Args[1]
+		tcpAddr, err := net.ResolveTCPAddr("tcp4", service)
+		checkError(err)
+		conn, err := net.DialTCP("tcp", nil, tcpAddr)
+		checkError(err)
+		_, err = conn.Write([]byte("HEAD / HTTP/1.0\r\n\r\n"))
+		checkError(err)
+		result, err := io.ReadAll(conn)
+		checkError(err)
+		fmt.Println(string(result))
+		os.Exit(0)
+	}
+
+	func checkError(err error) {
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+			os.Exit(1)
+		}
+	}
+
+`,
+		// =======================================================================================
+
+		"day time server": `DaytimeServer-1
+/* DaytimeServer
+ */
+package main
+
+import (
+	"fmt"
+	"net"
+	"os"
+	"time"
+)
+
+func main() {
+	service := ":1200"
+	tcpAddr, err := net.ResolveTCPAddr("tcp", service)
+	checkError(err)
+	listener, err := net.ListenTCP("tcp", tcpAddr)
+	checkError(err)
+	for {
+		conn, err := listener.Accept()
+		if err != nil {
+			continue
+		}
+		daytime := time.Now().String()
+		conn.Write([]byte(daytime)) // don't care about return value
+		conn.Close()                // we're finished with this client
+	}
+}
+func checkError(err error) {
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+		os.Exit(1)
+	}
 }
 
+/*
 
+This will produce output such as the following:
+$telnet localhost 1200
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+2017-01-02 20:13:21.934698384 +1100 AEDTConnection closed by foreign host.
+Where 2017-01-02 20:13:21.934698384 +1100 AEDT is the output from the server.
+
+*/
+`,
+		// =======================================================================================
+		"daytime server": `DaytimeServer-1
+/* DaytimeServer
+ */
+package main
+
+import (
+	"fmt"
+	"net"
+	"os"
+	"time"
+)
+
+func main() {
+	service := ":1200"
+	tcpAddr, err := net.ResolveTCPAddr("tcp", service)
+	checkError(err)
+	listener, err := net.ListenTCP("tcp", tcpAddr)
+	checkError(err)
+	for {
+		conn, err := listener.Accept()
+		if err != nil {
+			continue
+		}
+		daytime := time.Now().String()
+		conn.Write([]byte(daytime)) // don't care about return value
+		conn.Close()                // we're finished with this client
+	}
+}
+func checkError(err error) {
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+		os.Exit(1)
+	}
+}
+
+/*
+
+This will produce output such as the following:
+$telnet localhost 1200
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+2017-01-02 20:13:21.934698384 +1100 AEDTConnection closed by foreign host.
+Where 2017-01-02 20:13:21.934698384 +1100 AEDT is the output from the server.
+
+*/
+`,
+		// =======================================================================================
+		"day timeserver": `DaytimeServer-1
+/* DaytimeServer
+ */
+package main
+
+import (
+	"fmt"
+	"net"
+	"os"
+	"time"
+)
+
+func main() {
+	service := ":1200"
+	tcpAddr, err := net.ResolveTCPAddr("tcp", service)
+	checkError(err)
+	listener, err := net.ListenTCP("tcp", tcpAddr)
+	checkError(err)
+	for {
+		conn, err := listener.Accept()
+		if err != nil {
+			continue
+		}
+		daytime := time.Now().String()
+		conn.Write([]byte(daytime)) // don't care about return value
+		conn.Close()                // we're finished with this client
+	}
+}
+func checkError(err error) {
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+		os.Exit(1)
+	}
+}
+
+/*
+
+This will produce output such as the following:
+$telnet localhost 1200
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+2017-01-02 20:13:21.934698384 +1100 AEDTConnection closed by foreign host.
+Where 2017-01-02 20:13:21.934698384 +1100 AEDT is the output from the server.
+
+*/
+`,
+		// =======================================================================================
+		"daytimeserver": `DaytimeServer-1
+/* DaytimeServer
+ */
+package main
+
+import (
+	"fmt"
+	"net"
+	"os"
+	"time"
+)
+
+func main() {
+	service := ":1200"
+	tcpAddr, err := net.ResolveTCPAddr("tcp", service)
+	checkError(err)
+	listener, err := net.ListenTCP("tcp", tcpAddr)
+	checkError(err)
+	for {
+		conn, err := listener.Accept()
+		if err != nil {
+			continue
+		}
+		daytime := time.Now().String()
+		conn.Write([]byte(daytime)) // don't care about return value
+		conn.Close()                // we're finished with this client
+	}
+}
+func checkError(err error) {
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+		os.Exit(1)
+	}
+}
+
+/*
+
+This will produce output such as the following:
+$telnet localhost 1200
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+2017-01-02 20:13:21.934698384 +1100 AEDTConnection closed by foreign host.
+Where 2017-01-02 20:13:21.934698384 +1100 AEDT is the output from the server.
+
+*/
+`,
+// =======================================================================================
+	"simpleechoserver":   `
+main.go:
+	/* SimpleEchoServer
+	*/
+	package main
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+	func main() {
+		service := ":1201"
+		tcpAddr, err := net.ResolveTCPAddr("tcp4", service)
+		checkError(err)
+		listener, err := net.ListenTCP("tcp", tcpAddr)
+		checkError(err)
+		for {
+			conn, err := listener.Accept()
+			if err != nil {
+				continue
+			}
+			handleClient(conn)
+			conn.Close() // we're finished
+		}
+	}
+	func handleClient(conn net.Conn) {
+		var buf [512]byte
+		for {
+			n, err := conn.Read(buf[0:])
+			if err != nil {
+				return
+			}
+			fmt.Println(string(buf[0:]))
+			_, err2 := conn.Write(buf[0:n])
+			if err2 != nil {
+				return
+			}
+		}
+	}
+	func checkError(err error) {
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+			os.Exit(1)
+		}
+	}
+`,
+// =======================================================================================
+	"simple echo server": `
+main.go:
+	/* SimpleEchoServer
+	*/
+	package main
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+	func main() {
+		service := ":1201"
+		tcpAddr, err := net.ResolveTCPAddr("tcp4", service)
+		checkError(err)
+		listener, err := net.ListenTCP("tcp", tcpAddr)
+		checkError(err)
+		for {
+			conn, err := listener.Accept()
+			if err != nil {
+				continue
+			}
+			handleClient(conn)
+			conn.Close() // we're finished
+		}
+	}
+	func handleClient(conn net.Conn) {
+		var buf [512]byte
+		for {
+			n, err := conn.Read(buf[0:])
+			if err != nil {
+				return
+			}
+			fmt.Println(string(buf[0:]))
+			_, err2 := conn.Write(buf[0:n])
+			if err2 != nil {
+				return
+			}
+		}
+	}
+	func checkError(err error) {
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+			os.Exit(1)
+		}
+	}
+`,
+// =======================================================================================
+	"echo server":        `
+main.go:
+	/* SimpleEchoServer
+	*/
+	package main
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+	func main() {
+		service := ":1201"
+		tcpAddr, err := net.ResolveTCPAddr("tcp4", service)
+		checkError(err)
+		listener, err := net.ListenTCP("tcp", tcpAddr)
+		checkError(err)
+		for {
+			conn, err := listener.Accept()
+			if err != nil {
+				continue
+			}
+			handleClient(conn)
+			conn.Close() // we're finished
+		}
+	}
+	func handleClient(conn net.Conn) {
+		var buf [512]byte
+		for {
+			n, err := conn.Read(buf[0:])
+			if err != nil {
+				return
+			}
+			fmt.Println(string(buf[0:]))
+			_, err2 := conn.Write(buf[0:n])
+			if err2 != nil {
+				return
+			}
+		}
+	}
+	func checkError(err error) {
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+			os.Exit(1)
+		}
+	}
+`,
+// =======================================================================================
+	"echoserver":         `
+main.go:
+	/* SimpleEchoServer
+	*/
+	package main
+	import (
+		"fmt"
+		"net"
+		"os"
+	)
+	func main() {
+		service := ":1201"
+		tcpAddr, err := net.ResolveTCPAddr("tcp4", service)
+		checkError(err)
+		listener, err := net.ListenTCP("tcp", tcpAddr)
+		checkError(err)
+		for {
+			conn, err := listener.Accept()
+			if err != nil {
+				continue
+			}
+			handleClient(conn)
+			conn.Close() // we're finished
+		}
+	}
+	func handleClient(conn net.Conn) {
+		var buf [512]byte
+		for {
+			n, err := conn.Read(buf[0:])
+			if err != nil {
+				return
+			}
+			fmt.Println(string(buf[0:]))
+			_, err2 := conn.Write(buf[0:n])
+			if err2 != nil {
+				return
+			}
+		}
+	}
+	func checkError(err error) {
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Fatal error: %s", err.Error())
+			os.Exit(1)
+		}
+	}
+`,
+// =======================================================================================
+"interface":`Interfaces are named collections of method signatures.
+main.go:
+	package main
+
+	import (
+		"fmt"
+	)
+
+	type GeometryShapes interface {
+		Area() float64
+	}
+
+	type Rectangle struct {
+		width, height float64
+	}
+
+	func (reg Rectangle) Area(width, height float64) float64 {
+		return reg.width * reg.height
+	}
+
+	// empty interface as function parameter
+	func displayValue(i interface {}) {
+		fmt.Println(i)
+	}
+
+	// function with an empty interface as its parameter
+	func displayValuess(i... interface {}) {
+		fmt.Printf("%v",i)
+	}
+
+	func main() {
+		// variable of empty interface type
+		var CC123 interface {}
+		fmt.Println("Value:", CC123)
+	// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+		// Empty Interface to Pass Function Argument of Any Type
+		a := "Welcome to Programiz"
+		b := 20
+		c := false
+		// pass string to the function 
+		displayValue(a)
+		// pass integer number to the function
+		displayValue(b)
+		// pass boolean value to the function
+		displayValue(c)
+
+	// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+		// function call with a single parameter
+		displayValuess(a)
+		// function call with 2 parameters
+		displayValuess(a, b)
+		// function call with 3 parameters
+		displayValuess(a, b, c)
+
+	// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+		// Golang Type Assertions
+		// create an empty interface
+		
+		var TpAsr interface {} = 0
+		TpAsr = 10
+
+		// store integer to an empty interface
+		// type assertion
+		interfaceValue := TpAsr.(int)
+		fmt.Println(interfaceValue)
+		// Output:
+		//      10
+
+		// store integer to an empty interface
+		TpAsr = "Golang"
+		// type assertion
+		interfaceValue = TpAsr.(int)
+		fmt.Println(interfaceValue)
+		// Output:
+			// panic: interface conversion: interface {} is string, not int 
+
+
+
+		// Avoiding panic in Type Assertions
+		// create an empty interface
+		// var TpAsr interface{}
+		TpAsr = 12
+		// type assertion
+		interfaceValue, booleanValue := TpAsr.(int)
+		fmt.Println("Interface Value:", interfaceValue)
+		fmt.Println("Boolean Value:", booleanValue)
+		// Output
+			// Interface Value: 12
+			// Boolean Value: true
+
+		TpAsr = "Golang"
+		// type assertion
+		interfaceValue2, booleanValue2 := TpAsr.(int)
+		fmt.Println("Interface Value:", interfaceValue2)
+		fmt.Println("Boolean Value:", booleanValue2)
+		//   Output
+			//   Interface Value: 0
+			//   Boolean Value: false
+
+			
+	}
+
+`,
+"":`for test`,
+// =======================================================================================
+// =======================================================================================
+// =======================================================================================
+// =======================================================================================
+// =======================================================================================
+// =======================================================================================
+
+	},
+}
